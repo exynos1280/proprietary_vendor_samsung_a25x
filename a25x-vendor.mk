@@ -219,8 +219,6 @@ PRODUCT_PACKAGES += \
     liblmecpu \
     libsec2lsi_conversion \
     libshctrl \
-    libskeymint10device \
-    libskeymint_cli \
     libswlme \
     nfc_nci.st21nfc.st \
     vendor.samsung.hardware.security.drk-V1-ndk_platform \
@@ -229,5 +227,4 @@ PRODUCT_PACKAGES += \
     iweaver_v1_manifest.xml \
     vendor.samsung.hardware.security.hermes.xml \
     hermesd \
-    android.hardware.security.keymint-service.samsung \
     vendor.samsung.hardware.security.hermes-service
