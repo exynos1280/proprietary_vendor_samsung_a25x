@@ -31,7 +31,7 @@ cc_prebuilt_library_shared {
                 "libion_exynos",
                 "libhwjpeg",
                 "libnativewindow",
-                "//device/samsung/s5e8825-common/shims/stub:libexynoscamera3",
+                "libexynoscamera3",
                 "libbase",
                 "libc++",
                 "libc",
