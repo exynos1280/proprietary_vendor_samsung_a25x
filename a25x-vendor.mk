@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/ft3519_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ft3519_a25x.bin \
     vendor/samsung/a25x/proprietary/recovery/root/vendor/firmware/gt9895_a25x.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9895_a25x.bin \
+    vendor/samsung/a25x/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/a25x/proprietary/vendor/etc/dqe/calib_data_atc_s6e3fc3_a25x.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dqe/calib_data_atc_s6e3fc3_a25x.xml \
     vendor/samsung/a25x/proprietary/vendor/etc/dqe/calib_data_colormode0_s6e3fc3_a25x.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dqe/calib_data_colormode0_s6e3fc3_a25x.xml \
     vendor/samsung/a25x/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
@@ -202,6 +203,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.s5e8825 \
     libMERTA \
+    lib_SoundBooster_ver1130 \
     libbauthserver \
     libbauthtzcommon \
     libexynoscamera3 \
@@ -211,4 +213,5 @@ PRODUCT_PACKAGES += \
     liblmecpu \
     libsec2lsi_conversion \
     libswlme \
-    nfc_nci.st21nfc.st
+    nfc_nci.st21nfc.st \
+    libsamsungSoundbooster_plus
