@@ -203,6 +203,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     camera.s5e8825 \
     libMERTA \
+    lib_SoundAlive_play_plus_ver500 \
     lib_SoundBooster_ver1130 \
     libbauthserver \
     libbauthtzcommon \
@@ -214,4 +215,5 @@ PRODUCT_PACKAGES += \
     libsec2lsi_conversion \
     libswlme \
     nfc_nci.st21nfc.st \
+    libaudiosaplus_sec \
     libsamsungSoundbooster_plus
