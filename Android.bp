@@ -455,33 +455,3 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
-cc_prebuilt_library_shared {
-    name: "libsamsungSoundbooster_plus",
-    owner: "samsung",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "lib_SoundBooster_ver1130",
-                "libsecaudioinfo",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "soundfx",
-    prefer: true,
-    soc_specific: true,
-}

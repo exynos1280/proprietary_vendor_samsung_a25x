@@ -215,5 +215,4 @@ PRODUCT_PACKAGES += \
     libsec2lsi_conversion \
     libswlme \
     nfc_nci.st21nfc.st \
-    libaudiosaplus_sec \
-    libsamsungSoundbooster_plus
+    libaudiosaplus_sec
